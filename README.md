@@ -1,10 +1,8 @@
 # cloudflare-worker-boilerplate
 
-A no-compromise boilerplate for projects willing to be on the cutting edge of ECMAScript and Node.
+A boilerplate for [Cloudflare Workers](https://workers.cloudflare.com/).
 
-## Commands
-
-### Setup
+## Development
 
 Install all dependencies.
 
@@ -12,27 +10,7 @@ Install all dependencies.
 yarn
 ```
 
-Run your application.
-
-```bash
-yarn dev
-```
-
-### Build
-
-Minify and bundle the Node application with [esbuild](https://esbuild.github.io/).
-
-```bash
-yarn build
-```
-
-Human-readable bundle of your Node application. For debugging purposes.
-
-```bash
-yarn testbuild
-```
-
-### Test
+## Testing
 
 Run your tests with hot reloading.
 
