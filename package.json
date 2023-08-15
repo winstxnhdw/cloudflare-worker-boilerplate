@@ -3,24 +3,20 @@
     "lint": "eslint .",
     "dev": "wrangler dev",
     "deploy": "wrangler publish",
-    "test": "mocha --require @swc-node/register --extensions ts --watch --watch-files src 'tests/**/*.test.ts'",
-    "testci": "mocha --require @swc-node/register --extensions ts 'tests/**/*.test.ts'"
+    "test": "bun test --watch",
+    "testci": "bun test"
   },
   "dependencies": {
     "envalid": "^7.3.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230807.0",
-    "@types/chai": "^4.3.5",
-    "@types/mocha": "^10.0.1",
-    "@types/node": "^20.5.0",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
-    "chai": "^4.3.7",
+    "bun-types": "^0.7.3",
     "dotenv": "^16.3.1",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
-    "mocha": "^10.2.0",
     "prettier": "^3.0.1",
     "typescript": "^5.1.6",
     "wrangler": "^3.5.0"
