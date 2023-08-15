@@ -7,7 +7,7 @@ A boilerplate for [Cloudflare Workers](https://workers.cloudflare.com/).
 Install all dependencies.
 
 ```bash
-yarn
+bun install
 ```
 
 ## Testing
@@ -15,11 +15,11 @@ yarn
 Run your tests with hot reloading.
 
 ```bash
-yarn test
+bun run test
 ```
 
 Run your tests without hot reloading. For testing in a CI pipeline.
 
 ```bash
-yarn testci
+bun run testci
 ```
