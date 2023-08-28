@@ -21,5 +21,5 @@ bun run test
 Run your tests without hot reloading. For testing in a CI pipeline.
 
 ```bash
-bun run testci
+bun test
 ```

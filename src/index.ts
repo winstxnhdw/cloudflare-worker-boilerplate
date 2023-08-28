@@ -1,5 +1,5 @@
 async function main(request: Request): Promise<Response> {
-  return new Response(request.body, { status: 200 })
+  return new Promise((resolve) => resolve(new Response(request.body, { status: 200 })))
 }
 
 export default {

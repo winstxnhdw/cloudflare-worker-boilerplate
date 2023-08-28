@@ -3,8 +3,7 @@
     "lint": "eslint .",
     "dev": "wrangler dev",
     "deploy": "wrangler publish",
-    "test": "bun test --watch",
-    "testci": "bun test"
+    "test": "bun test --watch"
   },
   "dependencies": {
     "envalid": "^7.3.1"

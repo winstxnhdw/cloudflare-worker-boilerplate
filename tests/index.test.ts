@@ -1,6 +1,3 @@
-import { expect } from 'chai'
-import 'mocha'
+import { expect, test } from 'bun:test'
 
-describe('', () => {
-  it('', () => expect(() => true))
-})
+test('', () => expect(() => true))
