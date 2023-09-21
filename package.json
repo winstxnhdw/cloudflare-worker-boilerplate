@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@cloudflare/itty-router-openapi": "^1.0.0",
-    "envalid": "^7.3.1",
+    "envalid": "^8.0.0",
     "itty-router": "^4.0.22"
   },
   "devDependencies": {
