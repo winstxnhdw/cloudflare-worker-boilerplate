@@ -1,6 +1,6 @@
 name: Create
 
-on: [create]
+on: create
 
 permissions:
   contents: write
