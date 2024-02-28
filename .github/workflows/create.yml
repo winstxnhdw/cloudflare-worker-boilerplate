@@ -7,25 +7,4 @@ permissions:
 
 jobs:
   create:
-    if: ${{ !github.event.repository.is_template }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Remove unnecessary workflow files
-        run: rm -r .github
-
-      - name: Rename README title
-        env:
-          REPOSITORY_NAME: ${{ github.event.repository.name }}
-        run: sed -i "1s/.*/# $REPOSITORY_NAME/" README.md
-
-      - name: Reword initial commit
-        run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add .
-          git commit --amend -m "chore: initialise repository"
-          git push --force-with-lease
+    uses: winstxnhdw/actions/.github/workflows/create.yml@main
