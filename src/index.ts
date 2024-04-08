@@ -3,7 +3,7 @@ import { OpenAPIHono } from "@hono/zod-openapi";
 import { cors } from "hono/cors";
 
 function main() {
-	const openapi_documentation_route = "/doc";
+	const openapi_documentation_route = "/openapi.json";
 	const app = new OpenAPIHono().doc(openapi_documentation_route, {
 		openapi: "3.1.0",
 		info: {
@@ -13,7 +13,7 @@ function main() {
 	});
 
 	app.get("/docs", swaggerUI({ url: openapi_documentation_route }));
-	app.use("*", cors());
+	app.use(cors());
 
 	return app;
 }
