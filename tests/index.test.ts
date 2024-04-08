@@ -1,3 +1,3 @@
-import { expect, test } from 'bun:test'
+import { expect, test } from "bun:test";
 
-test('', () => expect(() => true))
+test("", () => expect(() => true));

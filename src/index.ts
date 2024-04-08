@@ -1,35 +1,21 @@
-import type { Environment } from '@/types'
-import { OpenAPIRouter } from '@cloudflare/itty-router-openapi'
-import { createCors } from 'itty-router'
+import { swaggerUI } from "@hono/swagger-ui";
+import { OpenAPIHono } from "@hono/zod-openapi";
+import { cors } from "hono/cors";
 
-async function controller(request: Request): Promise<Response> {
-  return new Promise((resolve) => resolve(new Response(request.body, { status: 200 })))
+function main() {
+	const openapi_documentation_route = "/doc";
+	const app = new OpenAPIHono().doc(openapi_documentation_route, {
+		openapi: "3.1.0",
+		info: {
+			version: "1.0.0",
+			title: "worker",
+		},
+	});
+
+	app.get("/docs", swaggerUI({ url: openapi_documentation_route }));
+	app.use("*", cors());
+
+	return app;
 }
 
-async function main(request: Request, env: Environment, ctx: unknown) {
-  const router = OpenAPIRouter({
-    docs_url: '/docs',
-    schema: {
-      info: {
-        title: 'worker',
-        description: 'A worker',
-        version: 'v1.0.0'
-      }
-    }
-  })
-
-  const { preflight, corsify } = createCors({
-    methods: ['*'],
-    origins: ['*']
-  })
-
-  router.all('*', preflight)
-  router.get('/', controller)
-  router.all('*', () => new Response('Not found!', { status: 404 }))
-
-  return router.handle(request, env, ctx).catch(console.error).then(corsify)
-}
-
-export default {
-  fetch: main
-}
+export default main();

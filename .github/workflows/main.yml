@@ -4,12 +4,11 @@ on:
   push:
     paths:
       - .github/workflows/main.yml
-      - .eslintrc
-      - .eslintignore
+      - biome.json
       - tsconfig.json
       - package.json
       - bun.lockb
-      - '*.ts'
+      - '**.ts'
 
 jobs:
   test:
