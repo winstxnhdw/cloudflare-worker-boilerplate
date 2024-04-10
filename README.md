@@ -1,6 +1,6 @@
 # cloudflare-worker-boilerplate
 
-A boilerplate for [Cloudflare Workers](https://workers.cloudflare.com/).
+A batteries-included [Hono](https://hono.dev/) boilerplate for [Cloudflare Workers](https://workers.cloudflare.com/) with [OpenAPI Swagger UI](https://swagger.io/specification/).
 
 ## Development
 

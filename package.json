@@ -1,23 +1,23 @@
 {
-	"scripts": {
-		"lint": "biome check .",
-		"dev": "wrangler dev",
-		"deploy": "wrangler deploy",
-		"test": "bun test --watch"
-	},
-	"dependencies": {
-		"@hono/swagger-ui": "^0.2.1",
-		"@hono/zod-openapi": "^0.10.0",
-		"hono": "^4.2.2",
-		"tslib": "^2.6.2",
-		"zod": "^3.22.4"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.6.4",
-		"@cloudflare/workers-types": "^4.20230807.0",
-		"bun-types": "^1.0.1",
-		"prettier": "^3.0.1",
-		"typescript": "^5.1.6",
-		"wrangler": "^3.5.0"
-	}
+  "scripts": {
+    "lint": "biome check .",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "bun test --watch"
+  },
+  "dependencies": {
+    "@hono/swagger-ui": "^0.2.1",
+    "@hono/zod-openapi": "^0.10.0",
+    "hono": "^4.2.2",
+    "tslib": "^2.6.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.6.4",
+    "@cloudflare/workers-types": "^4.20230807.0",
+    "bun-types": "^1.0.1",
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6",
+    "wrangler": "^3.5.0"
+  }
 }
