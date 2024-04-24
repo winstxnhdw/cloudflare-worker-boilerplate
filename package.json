@@ -8,16 +8,16 @@
   "dependencies": {
     "@hono/swagger-ui": "^0.2.1",
     "@hono/zod-openapi": "^0.11.0",
-    "hono": "^4.2.2",
+    "hono": "^4.2.7",
     "tslib": "^2.6.2",
-    "zod": "^3.22.4"
+    "zod": "^3.23.4"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
-    "@cloudflare/workers-types": "^4.20230807.0",
-    "bun-types": "^1.0.1",
-    "prettier": "^3.0.1",
-    "typescript": "^5.1.6",
-    "wrangler": "^3.5.0"
+    "@cloudflare/workers-types": "^4.20240423.0",
+    "bun-types": "^1.1.4",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "wrangler": "^3.52.0"
   }
 }
