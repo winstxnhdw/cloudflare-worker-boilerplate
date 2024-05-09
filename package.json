@@ -8,7 +8,7 @@
   "dependencies": {
     "@hono/swagger-ui": "^0.2.2",
     "@hono/zod-openapi": "^0.11.0",
-    "hono": "^4.3.3",
+    "hono": "^4.3.4",
     "tslib": "^2.6.2",
     "zod": "^3.23.8"
   },
@@ -17,6 +17,6 @@
     "@cloudflare/workers-types": "^4.20240502.0",
     "bun-types": "^1.1.7",
     "typescript": "^5.4.5",
-    "wrangler": "^3.53.1"
+    "wrangler": "^3.55.0"
   }
 }
