@@ -15,8 +15,10 @@
   "devDependencies": {
     "@biomejs/biome": "1.8.1",
     "@cloudflare/workers-types": "^4.20240605.0",
-    "bun-types": "^1.1.13",
-    "typescript": "^5.4.5",
+    "@types/bun": "latest",
     "wrangler": "^3.60.2"
+  },
+  "peerDependencies": {
+    "typescript": "latest"
   }
 }
