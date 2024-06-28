@@ -8,3 +8,6 @@ send_metrics = false
 
 [placement]
 mode = "smart"
+
+[ai]
+binding = "ai"
