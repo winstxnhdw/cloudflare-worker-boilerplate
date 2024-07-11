@@ -7,16 +7,16 @@
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.4.0",
-    "@hono/zod-openapi": "^0.14.8",
-    "hono": "^4.4.12",
+    "@hono/zod-openapi": "^0.14.9",
+    "hono": "^4.4.13",
     "tslib": "^2.6.3",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@cloudflare/workers-types": "^4.20240620.0",
+    "@cloudflare/workers-types": "^4.20240701.0",
     "@types/bun": "latest",
-    "wrangler": "^3.63.2"
+    "wrangler": "^3.64.0"
   },
   "peerDependencies": {
     "typescript": "latest"
