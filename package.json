@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.4.1",
-    "@hono/zod-openapi": "^0.16.3",
+    "@hono/zod-openapi": "^0.16.4",
     "hono": "^4.6.3",
     "tslib": "^2.7.0",
     "zod": "^3.23.8"
