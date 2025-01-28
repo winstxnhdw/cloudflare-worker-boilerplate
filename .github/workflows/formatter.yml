@@ -1,0 +1,17 @@
+name: Format
+
+on:
+  push:
+    paths:
+      - .github/workflows/formatter.yml
+      - biome.json
+      - package.json
+      - bun.lockb
+      - '**.ts'
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    uses: winstxnhdw/actions/.github/workflows/format-bun.yml@main
