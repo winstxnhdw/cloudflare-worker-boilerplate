@@ -8,15 +8,15 @@
   "dependencies": {
     "@hono/swagger-ui": "^0.5.1",
     "@hono/zod-openapi": "^0.19.8",
-    "hono": "^4.7.10",
+    "hono": "^4.7.11",
     "tslib": "^2.8.1",
-    "zod": "^3.25.42"
+    "zod": "^3.25.56"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@cloudflare/workers-types": "4.20250531.0",
+    "@cloudflare/workers-types": "4.20250607.0",
     "@types/bun": "latest",
-    "wrangler": "4.18.0"
+    "wrangler": "4.19.1"
   },
   "peerDependencies": {
     "typescript": "latest"
