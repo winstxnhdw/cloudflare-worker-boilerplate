@@ -6,7 +6,7 @@
     "test": "bun test --watch"
   },
   "dependencies": {
-    "@hono/swagger-ui": "^0.5.1",
+    "@hono/swagger-ui": "^0.5.2",
     "@hono/zod-openapi": "^0.19.8",
     "hono": "^4.7.11",
     "tslib": "^2.8.1",
