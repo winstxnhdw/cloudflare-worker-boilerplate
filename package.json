@@ -10,13 +10,13 @@
     "@hono/zod-openapi": "^0.19.9",
     "hono": "^4.8.4",
     "tslib": "^2.8.1",
-    "zod": "^4.0.2"
+    "zod": "^4.0.5"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
-    "@cloudflare/workers-types": "4.20250710.0",
+    "@cloudflare/workers-types": "4.20250711.0",
     "@types/bun": "latest",
-    "wrangler": "4.24.0"
+    "wrangler": "4.24.3"
   },
   "peerDependencies": {
     "typescript": "latest"
