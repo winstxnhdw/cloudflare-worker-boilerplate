@@ -1,18 +1,20 @@
-import { swaggerUI } from '@hono/swagger-ui';
-import { OpenAPIHono } from '@hono/zod-openapi';
-import { cors } from 'hono/cors';
+import { cors } from '@elysiajs/cors';
+import { swagger } from '@elysiajs/swagger';
+import { Elysia } from 'elysia';
 
 function main() {
-  const openapi_documentation_route = '/openapi.json';
-  const app = new OpenAPIHono().doc(openapi_documentation_route, {
-    openapi: '3.1.0',
-    info: {
-      version: '1.0.0',
-      title: 'worker',
+  const swagger_plugin = swagger({
+    path: '/scalar/docs',
+    documentation: {
+      info: {
+        title: 'Worker',
+        version: '1.0.0',
+      },
     },
   });
 
-  app.get('/docs', swaggerUI({ url: openapi_documentation_route }));
+  const app = new Elysia().use(swagger_plugin);
+
   app.use(cors());
 
   return app;
