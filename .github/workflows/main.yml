@@ -8,7 +8,8 @@ on:
       - tsconfig.json
       - package.json
       - bun.lockb
-      - '**.ts'
+      - src/**/*.ts
+      - tests/**/*.ts
 
 jobs:
   test:
