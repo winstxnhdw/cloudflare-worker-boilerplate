@@ -7,7 +7,7 @@ on:
       - biome.json
       - tsconfig.json
       - package.json
-      - bun.lockb
+      - bun.lock
       - src/**/*.ts
       - tests/**/*.ts
 

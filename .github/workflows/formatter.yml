@@ -6,7 +6,7 @@ on:
       - .github/workflows/formatter.yml
       - biome.json
       - package.json
-      - bun.lockb
+      - bun.lock
       - src/**/*.ts
       - tests/**/*.ts
 
