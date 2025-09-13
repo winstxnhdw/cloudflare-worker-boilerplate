@@ -1,6 +1,6 @@
-import { app } from '@/app';
-import { treaty } from '@elysiajs/eden';
 import { describe } from 'bun:test';
+import { treaty } from '@elysiajs/eden';
+import { app } from '@/app';
 
 function create_app() {
   const api = app({});
