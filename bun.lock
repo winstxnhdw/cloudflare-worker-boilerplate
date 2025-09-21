@@ -5,7 +5,7 @@
       "dependencies": {
         "@elysiajs/bearer": "^1.4.1",
         "@elysiajs/cors": "^1.4.0",
-        "@elysiajs/openapi": "^1.4.8",
+        "@elysiajs/openapi": "^1.4.9",
         "elysia": "^1.4.6",
         "tslib": "^2.8.1",
       },
@@ -66,7 +66,7 @@
 
     "@elysiajs/eden": ["@elysiajs/eden@1.4.1", "", { "peerDependencies": { "elysia": ">= 1.4.0-exp.0" } }, "sha512-9VXMau/cvafuBa1r19ucKi+l9eesCmeuvD6uYSeq5MFO/URc233JaxZmUlWQ8gztu+pp6L7auTZdkzOQz26O+A=="],
 
-    "@elysiajs/openapi": ["@elysiajs/openapi@1.4.8", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-z65VXNE8P8waWpNVJ+NJ9EJlblK67BHUy110YirYNm98zmz2VnOsQ68VgBsww1xXHXiLjOsm9BIWg3xjnD4Ung=="],
+    "@elysiajs/openapi": ["@elysiajs/openapi@1.4.9", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-Y6NYgVmH6OKJ2ion1n1lFvhQFoGCpay9qiJ36CAUvdTsz8RxDkbt9wgK5n4n1EuXHwMCf6m1zs5VNmxCNa8TNg=="],
 
     "@emnapi/runtime": ["@emnapi/runtime@1.5.0", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-97/BJ3iXHww3djw6hYIfErCZFee7qCtrneuLa20UXFCOTCfBM2cvQHjWJ2EG0s0MtdNwInarqCTz35i4wWXHsQ=="],
 
