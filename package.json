@@ -13,11 +13,11 @@
     "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.2.5",
     "@cloudflare/workers-types": "4.20251001.0",
     "@elysiajs/eden": "1.4.1",
     "@types/bun": "latest",
-    "wrangler": "4.40.3"
+    "wrangler": "4.41.0"
   },
   "peerDependencies": {
     "typescript": "latest"
