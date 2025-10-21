@@ -1,7 +1,6 @@
 import { cors } from '@elysiajs/cors';
 import { openapi } from '@elysiajs/openapi';
 import { Elysia } from 'elysia';
-import { CloudflareAdapter } from 'elysia/adapter/cloudflare-worker';
 import type { Bindings } from '@/types';
 
 export function app(env: Bindings) {
@@ -27,9 +26,5 @@ export function app(env: Bindings) {
     },
   });
 
-  return new Elysia({ adapter: CloudflareAdapter, normalize: false })
-    .decorate('env', env)
-    .use(scalarPlugin)
-    .use(cors())
-    .compile();
+  return new Elysia().decorate('env', env).use(scalarPlugin).use(cors());
 }
