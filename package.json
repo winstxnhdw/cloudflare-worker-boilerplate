@@ -18,7 +18,7 @@
     "@cloudflare/workers-types": "4.20251126.0",
     "@elysiajs/eden": "1.4.5",
     "@types/bun": "latest",
-    "wrangler": "4.50.0"
+    "wrangler": "4.51.0"
   },
   "peerDependencies": {
     "typescript": "latest"
