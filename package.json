@@ -13,7 +13,7 @@
     "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.11",
+    "@biomejs/biome": "2.3.12",
     "@cloudflare/workers-types": "4.20260123.0",
     "@elysiajs/eden": "1.4.6",
     "@types/bun": "latest",
