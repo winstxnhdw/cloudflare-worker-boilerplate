@@ -6,7 +6,7 @@
     "test": "bun test --watch"
   },
   "dependencies": {
-    "@elysiajs/bearer": "^1.4.2",
+    "@elysiajs/bearer": "^1.4.3",
     "@elysiajs/cors": "^1.4.1",
     "@elysiajs/openapi": "^1.4.14",
     "elysia": "^1.4.22",
