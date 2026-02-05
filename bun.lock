@@ -4,7 +4,7 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "@elysiajs/bearer": "^1.4.2",
+        "@elysiajs/bearer": "^1.4.3",
         "@elysiajs/cors": "^1.4.1",
         "@elysiajs/openapi": "^1.4.14",
         "elysia": "^1.4.22",
@@ -61,7 +61,7 @@
 
     "@cspotcode/source-map-support": ["@cspotcode/source-map-support@0.8.1", "", { "dependencies": { "@jridgewell/trace-mapping": "0.3.9" } }, "sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw=="],
 
-    "@elysiajs/bearer": ["@elysiajs/bearer@1.4.2", "", { "peerDependencies": { "elysia": ">= 1.4.3" } }, "sha512-MK2aCFqnFMqMNSa1e/A6+Ow5uNl5LpKd8K4lCB2LIsyDrI6juxOUHAgqq+esgdSoh3urD1UIMqFC//TsqCQViA=="],
+    "@elysiajs/bearer": ["@elysiajs/bearer@1.4.3", "", { "peerDependencies": { "elysia": ">= 1.4.3" } }, "sha512-UWJ94jGGOzSlD3CCspC11/vFGKwy6RI9QvaZVPzlSu1Wxp/pKmOhKA+R2ppfbluMHXfxcc2xgK3x4+uuCML7GA=="],
 
     "@elysiajs/cors": ["@elysiajs/cors@1.4.1", "", { "peerDependencies": { "elysia": ">= 1.4.0" } }, "sha512-lQfad+F3r4mNwsxRKbXyJB8Jg43oAOXjRwn7sKUL6bcOW3KjUqUimTS+woNpO97efpzjtDE0tEjGk9DTw8lqTQ=="],
 
