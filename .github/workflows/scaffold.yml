@@ -1,6 +1,6 @@
-name: Create
+name: Scaffold
 
-on: create
+on: push
 
 permissions:
   contents: write
