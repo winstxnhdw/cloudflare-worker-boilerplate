@@ -1,6 +1,8 @@
 name: Scaffold
 
-on: push
+on:
+  push:
+    paths: [.github/workflows/scaffold.yml]
 
 permissions:
   contents: write
