@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.3",
-    "@cloudflare/workers-types": "5.20260712.1",
+    "@cloudflare/workers-types": "5.20260713.1",
     "@elysiajs/eden": "1.4.9",
     "@types/bun": "latest",
     "wrangler": "4.110.0"
