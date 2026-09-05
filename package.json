@@ -8,16 +8,16 @@
   "dependencies": {
     "@elysiajs/bearer": "^1.4.4",
     "@elysiajs/cors": "^1.4.2",
-    "@elysiajs/openapi": "^1.4.15",
+    "@elysiajs/openapi": "^1.4.16",
     "elysia": "^1.4.30",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.11",
-    "@cloudflare/workers-types": "5.20260901.1",
+    "@cloudflare/workers-types": "5.20260902.1",
     "@elysiajs/eden": "1.4.9",
     "@types/bun": "latest",
-    "wrangler": "4.127.1"
+    "wrangler": "4.128.0"
   },
   "peerDependencies": {
     "typescript": "latest"
