@@ -14,10 +14,10 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.12",
-    "@cloudflare/workers-types": "5.20260903.1",
+    "@cloudflare/workers-types": "5.20260904.1",
     "@elysiajs/eden": "1.4.9",
     "@types/bun": "latest",
-    "wrangler": "4.128.0"
+    "wrangler": "4.129.0"
   },
   "peerDependencies": {
     "typescript": "latest"
