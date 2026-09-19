@@ -13,8 +13,8 @@
     "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.13",
-    "@cloudflare/workers-types": "5.20260915.1",
+    "@biomejs/biome": "2.5.14",
+    "@cloudflare/workers-types": "5.20260916.1",
     "@elysiajs/eden": "1.4.9",
     "@types/bun": "latest",
     "wrangler": "4.132.0"
