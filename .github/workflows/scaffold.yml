@@ -9,4 +9,4 @@ permissions:
 
 jobs:
   create:
-    uses: winstxnhdw/actions/.github/workflows/scaffold.yml@4bc6679dff95ade0d7b54199996217bb52a826a9 # main
+    uses: winstxnhdw/actions/.github/workflows/scaffold.yml@bfab88ec8f2299aca2069cf92f09d011b65f0889 # main
