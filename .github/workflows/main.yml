@@ -13,6 +13,6 @@ on:
 
 jobs:
   test:
-    uses: winstxnhdw/actions/.github/workflows/bun.yml@4bc6679dff95ade0d7b54199996217bb52a826a9 # main
+    uses: winstxnhdw/actions/.github/workflows/bun.yml@194a3954c9a7525253ad966bf030068bdbc0250e # main
     with:
       disable-build: true
